@@ -16,3 +16,4 @@ model
 data
 data backup
 .DS_Store
+.DS_Store/
