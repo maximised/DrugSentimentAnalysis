@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.cloud/
+.config/
+.cache/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.vscode/
+.local/
+.npm/
+.csv
+model
+data
+data backup
+.DS_Store
