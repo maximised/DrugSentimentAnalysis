@@ -28,6 +28,8 @@ high availability and efficient resource management.
 - Data: A directory that stores the raw and processed datasets along with the models.
 
 ## Setup and Installation
+This is a step by step guide to show you how to run the project on your local computer. 
+Note that the project containers can be run on AWS ECS to take advantage of high scalability and availability. This is not demonstrated here at the moment.
 
 ### Prerequisites
 - Docker
@@ -51,10 +53,19 @@ aws s3 mb s3://maxim-thesis
 git clone https://github.com/maximised/DrugSentimentAnalysis.git
 ```
 
-2. Build the docker images for each component:
-i. 
-
+2. Navigate to the project directory:
 ```bash
-git clone https://github.com/yourusername/yourprojectname.git
-cd yourprojectname
-pip install -r requirements.txt
+cd DrugSentimentAnalysis
+```
+
+3. Build the Docker images for each component:
+```bash
+docker-compose build
+```
+
+4. Run the Docker containers:
+```bash
+docker-compose up
+```
+
+The dashboard will be available at http://localhost:8050 on your web browser.
