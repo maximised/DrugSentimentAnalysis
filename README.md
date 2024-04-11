@@ -69,3 +69,14 @@ docker-compose up
 ```
 
 The dashboard will be available at http://localhost:8050 on your web browser.
+
+## Usage
+This is a summary of the order of events that happen when you run the above setup:
+- Scraping Reviews: Run the web scraper to collect the latest reviews from WebMD.
+- Data Preprocessing: Apply preprocessing scripts to clean the data.
+- Sentiment Analysis: Run the sentiment model to analyze the sentiments of the reviews.
+- Topic Modeling: Perform topic modeling to discover prevalent topics in the reviews.
+- Dashboard: Use the web dashboard to explore the analysis results.
+
+## Acknowledgments
+I am grateful to Dr. Farshad Toosi for patiently teaching the intricacies of research and publication.
