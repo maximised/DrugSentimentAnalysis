@@ -40,6 +40,17 @@ high availability and efficient resource management.
 aws configure
 ```
 
+2. Create a S3 bucket in your AWS account called 'maxim-thesis'. This is where the data will be stored.
+```bash
+aws s3 mb s3://maxim-thesis
+```
+
+### Local Setup
+1. Clone the repository:
+```bash
+git clone <repository-url>
+```
+
 ```bash
 git clone https://github.com/yourusername/yourprojectname.git
 cd yourprojectname
