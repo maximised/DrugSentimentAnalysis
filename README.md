@@ -48,8 +48,11 @@ aws s3 mb s3://maxim-thesis
 ### Local Setup
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/maximised/DrugSentimentAnalysis.git
 ```
+
+2. Build the docker images for each component:
+i. 
 
 ```bash
 git clone https://github.com/yourusername/yourprojectname.git
