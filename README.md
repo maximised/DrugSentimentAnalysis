@@ -18,6 +18,15 @@ modelling. To facilitate this, a robust and scalable system will be developed us
 Docker for containerization and deployed on Amazon Web Services (AWS) to ensure
 high availability and efficient resource management.
 
+## Components
+WebMD Scraper: A web scraper that collects reviews from WebMD.
+Preprocess: Scripts for
+  1. cleaning and preprocessing the scraped data
+  2. Apply Sentiment models onto data using RoBERTa and VADER models.
+  3. Apply Topic Models on data using BERTopic
+Dash: A Flask-based web dashboard for visualizing sentiment and topic analysis results.
+Data: A directory that stores the raw and processed datasets along with the models.
+
 ## Installation
 
 Instructions on how to get a development environment running. Break it down into a simple step-by-step process.
