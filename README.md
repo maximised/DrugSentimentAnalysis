@@ -2,7 +2,7 @@
 This is the code repository for our Cloud Dashboard for the Master's thesis of MTU Cloud Computing. 
 
 <img width="1368" alt="Screenshot 2024-04-18 at 16 39 37" src="https://github.com/maximised/DrugSentimentAnalysis/assets/43744190/70595d4e-634f-4fb6-ad0c-d808d2f3351d">
-<img width="239" alt="Screenshot 2024-04-18 at 16 39 55" src="https://github.com/maximised/DrugSentimentAnalysis/assets/43744190/c3eed6fd-4e88-4b7d-8e36-34d32552ce33">
+<img width="1408" alt="Screenshot 2024-04-18 at 16 40 22" src="https://github.com/maximised/DrugSentimentAnalysis/assets/43744190/42971570-4634-490b-9526-f20e3684bc70">
 <img width="1335" alt="Screenshot 2024-04-18 at 16 23 02" src="https://github.com/maximised/DrugSentimentAnalysis/assets/43744190/bd27780d-5fe8-4ac8-aab5-1bbffa748b24">
 
 
